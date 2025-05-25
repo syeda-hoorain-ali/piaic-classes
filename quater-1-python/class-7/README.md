@@ -1,5 +1,9 @@
 # 🐍 Python Class 7 – 25 May 2025
 
+<a target="_blank" href="https://colab.research.google.com/drive/15CFkU6tsJNd9Wbib5-a5WMg5-MBsSiaJ?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ---
 
 ## 🔁 Callback Functions
