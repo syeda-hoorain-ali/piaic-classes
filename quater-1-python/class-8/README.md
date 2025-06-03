@@ -270,7 +270,7 @@ login("guest")  # Will raise LoginError
 
 
 
-<font size=5 color="lightgreen"><b>📝 Homework Assignments </b> </font>
+## 📝 Homework Assignments
 
 <font size=3>
 
@@ -281,6 +281,6 @@ login("guest")  # Will raise LoginError
 - 5️⃣ **Lambda Tools**
 
 
-For complete details, please refer to the [Homework Assignments](https://github.com/syeda-hoorain-ali/piaic-classes/blob/main/quater-1-python/class-7/HOMEWORK-ASSIGNMENTS.md)
+For complete details, please refer to the [Homework Assignments](./HOMEWORK-ASSIGNMENTS.md)
 
 </font>
