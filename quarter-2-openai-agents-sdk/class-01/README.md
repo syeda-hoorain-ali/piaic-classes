@@ -1,4 +1,4 @@
-# 🤖 OpenAI Agents SDK Class 1 – 27 July 2025
+# 🤖 OpenAI Agents SDK Class 1 – 16 August 2025
 
 ---
 
