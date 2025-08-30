@@ -1,0 +1,92 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -176,
+        -208
+      ],
+      "id": "dac30166-a489-4af9-8829-bb11a5064919",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "resource": "all",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.hackerNews",
+      "typeVersion": 1,
+      "position": [
+        48,
+        -208
+      ],
+      "id": "546634a5-db10-4a1b-a5fb-2f7cd135369e",
+      "name": "Get many items",
+      "notesInFlow": false
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "32e3e8c5-7ef6-4ac8-9059-0a307574d6b6",
+              "name": "author",
+              "value": "={{ $json.author ? $json.author : 'N/A'  }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        272,
+        -208
+      ],
+      "id": "d07a9abe-4c16-4e1d-9a7d-6223c7d5ad5c",
+      "name": "Edit Fields",
+      "executeOnce": false,
+      "notesInFlow": true,
+      "notes": "hello"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get many items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get many items": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "f32a9b71-357e-4040-a306-f5a280f3012f",
+  "meta": {
+    "instanceId": "eca2ce761ce9e796a9bab1b9df96a8164745c50c09abb579bb058bad0b7581d0"
+  },
+  "id": "rL59Ik9JnmYRJwwX",
+  "tags": []
+}
