@@ -1,18 +1,18 @@
 # WSL (Windows Subsystem for Linux)
 
-Start menu
-Start menu -> wsl (black)
-Turn windows features on or off
-  \- Virtual machine plateform
-  \- Windows subsystem for Linux
+Start menu  
+Start menu -> wsl (black)  
+Turn windows features on or off  
+  \- Virtual machine plateform  
+  \- Windows subsystem for Linux  
 
-Then click on restart now button
-Open cmd
-wsl --status (to check WSL is available)
-wsl --update (ye update krta hai wsl k version ko)
-Click on yes button (Optional)
-wsl --install -d Ubuntu
-Account password
+Then click on restart now button  
+Open cmd  
+wsl --status (to check WSL is available)  
+wsl --update (ye update krta hai wsl k version ko)  
+Click on yes button (Optional)  
+wsl --install -d Ubuntu  
+Account password  
 
 ## **Task Manager -> Performance Check Virtualization Enable**
 
