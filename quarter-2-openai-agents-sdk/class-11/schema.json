@@ -1,0 +1,31 @@
+[
+  {
+    "content": "What 2 + 2?",
+    "role": "user"
+  },
+  {
+    "arguments": "{}",
+    "call_id": "function-call-10073337824192742247",
+    "name": "transfer_to_maths_agent",
+    "type": "function_call",
+    "id": "__fake_id__"
+  },
+  {
+    "call_id": "function-call-10073337824192742247",
+    "output": "{\"assistant\": \"Maths Agent\"}",
+    "type": "function_call_output"
+  },
+  {
+    "id": "__fake_id__",
+    "content": [
+      {
+        "annotations": [],
+        "text": "2 + 2 = 4",
+        "type": "output_text"
+      }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message"
+  }
+]
