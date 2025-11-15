@@ -1,0 +1,3 @@
+Food,10000
+Transport,5000
+Shopping,7000

@@ -1,0 +1,4 @@
+2025-11-15,expense,Food,Lunch,500
+2025-11-15,expense,Transport,Metro fare,100
+2025-11-15,expense,Shopping,New shirt,2000
+2025-11-14,expense,Food,Dinner,800
