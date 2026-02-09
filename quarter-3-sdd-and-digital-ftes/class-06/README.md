@@ -1,4 +1,4 @@
-# 🤖 Spec-Driven Development – Class 6 (24 Jan 2026)
+# 🤖 Spec-Driven Development & Digital FTEs – Class 6 (24 Jan 2026)
 
 ## 📖 What we covered
 
